@@ -1,8 +1,47 @@
+
 @import "./base.less";
 
 .nav-links {
     padding: 10px; 
     a {
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: #000;
+}
+
+.my-header {
+    background: linear-gradient(to right, skyblue, greenyellow, skyblue);
+    color: #fff;
+    .mui-icon-left-nav {
+        color: #fff;
+    }
+    .mui-icon-search {
+        color: #fff;
+    }
+    h1 {
+        color: #fff;
+    }
+}
+
+.my-footer {
+    background: linear-gradient(to right, skyblue, greenyellow, skyblue);
+    .mui-tab-item {
+        color: lemonchiffon;
+    }
+    .mui-tab-item.mui-active {
+        color: indianred
+    }
+}
+
+.nav-links {
+    padding: 10px; // display: flex;
+    a {
+        //    flex: 1;
         width: 33.3%;
         float: left;
         img {
@@ -87,6 +126,19 @@
                 border-radius: 4px;
                 margin: 0 auto 5px auto;
                 
+                }
+                .buy-now {
+                    display: block;
+                    width: 80px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background: #006699;
+                    color: #FFF;
+                    font-size: 14px;
+                    border-radius: 4px;
+                    margin: 0 auto 5px auto;
+                  }
             }
         }
     }
