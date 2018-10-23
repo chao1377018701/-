@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: #000;
+}
+.my-header {
+  background: linear-gradient(to right, skyblue, greenyellow, skyblue);
+  color: #fff;
+}
+.my-header .mui-icon-left-nav {
+  color: #fff;
+}
+.my-header .mui-icon-search {
+  color: #fff;
+}
+.my-header h1 {
+  color: #fff;
+}
+.my-footer {
+  background: linear-gradient(to right, skyblue, greenyellow, skyblue);
+}
+.my-footer .mui-tab-item {
+  color: lemonchiffon;
+}
+.my-footer .mui-tab-item.mui-active {
+  color: indianred;
+}
+.my-content.mui-content {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  bottom: 50px;
+  width: 100%;
+  background: #f5f5f5;
+  display: flex;
+  padding: 0;
+}
+.my-content.mui-content .category-left {
+  position: relative;
+  width: 80px;
+  height: 100%;
+}
+.my-content.mui-content .category-left a {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+}
+.my-content.mui-content .category-left a.active {
+  border-right: none;
+  background-color: #fff;
+}
+.my-content.mui-content .category-right {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  background-color: #fff;
+}
+.my-content.mui-content .category-right .brand-list {
+  margin-top: 20px;
+  font-size: 14px;
+  width: 100%;
+}
+.my-content.mui-content .category-right .brand-list li {
+  width: 33.3%;
+  float: left;
+}
+.my-content.mui-content .category-right .brand-list li img {
+  width: 100%;
+  display: block;
+}
+.my-content.mui-content .category-right .brand-list li p {
+  text-align: center;
+}

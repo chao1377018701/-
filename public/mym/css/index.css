@@ -98,17 +98,20 @@ a {
 .product ul li p span:first-child {
   color: #e92324;
   padding-right: 20px;
+  font-weight: 700;
 }
 .product ul li p span:last-child {
   text-decoration: line-through;
   padding-left: 2px;
 }
+.product ul li .buy-now {
 .product ul li p .buy-now {
   display: block;
   width: 80px;
   height: 30px;
   line-height: 30px;
   text-align: center;
+  background: powderblue;
   background: #006699;
   color: #FFF;
   font-size: 14px;

@@ -1,3 +1,5 @@
+
+* {
 /* 公共样式 */
 
 .my-header {
@@ -23,11 +25,36 @@
 .my-footer .mui-tab-item.mui-active {
 	color: darkorange;
 }
-
 ul {
+
   padding: 0;
   margin: 0;
   list-style: none;
+}
+a {
+  color: #000;
+}
+.my-header {
+  background: linear-gradient(to right, skyblue, greenyellow, skyblue);
+  color: #fff;
+}
+.my-header .mui-icon-left-nav {
+  color: #fff;
+}
+.my-header .mui-icon-search {
+  color: #fff;
+}
+.my-header h1 {
+  color: #fff;
+}
+.my-footer {
+  background: linear-gradient(to right, skyblue, greenyellow, skyblue);
+}
+.my-footer .mui-tab-item {
+  color: lemonchiffon;
+}
+.my-footer .mui-tab-item.mui-active {
+  color: indianred;
 }
 
 a {
