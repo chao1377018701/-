@@ -15,7 +15,7 @@
 	<header class="mui-bar mui-bar-nav my-header">
 		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 		<h1 class="mui-title">移动电商</h1>
-		<a href="javascript:;" class="mui-icon mui-icon-search mui-pull-right"></a>
+		<a href="./search.html" class="mui-icon mui-icon-search mui-pull-right"></a>
 
 	</header>
 	<nav class="mui-bar mui-bar-tab footer my-footer">
@@ -174,7 +174,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -188,7 +187,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-						adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -202,7 +200,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -216,7 +213,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -238,7 +234,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 女式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -252,7 +247,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 女式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -266,7 +260,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 女式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -280,7 +273,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 女式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -302,7 +294,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -316,7 +307,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -330,7 +320,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -344,7 +333,6 @@
 						<img src="images/product.jpg">
 						<span class="name">
 							adidas阿迪达斯 男式 哈哈哈!真便宜,买买买
-							adidas阿迪达斯 男式 场下休闲篮球鞋S83700
 						</span>
 						<p>
 							<span>¥560</span>
@@ -358,5 +346,10 @@
 		<!-- /男士专栏结束 -->
 	</div>
 </body>
-
+<script>
+	//实现底部点击可跳转,因为MUI默认阻止了默认行为
+	mui('.footer').on('tap','a',function(){
+		window.top.location.href=this.href;
+	});
+</script>
 </html>

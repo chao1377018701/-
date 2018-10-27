@@ -1,4 +1,8 @@
 $(function () {
+	//实现底部点击可跳转,因为MUI默认阻止了默认行为
+	mui('.footer').on('tap','a',function(){
+		window.top.location.href=this.href;
+	});
 	mui('.mui-scroll-wrapper').scroll({
 		deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
 	});
@@ -35,6 +39,5 @@ $(function () {
 				$('.brand-list').html(html);
 			}
 		})
-	}
-	
+	}	
 })
