@@ -1,0 +1,227 @@
+@media screen and (device-width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (device-width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (device-width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (device-width: 414px) {
+  html {
+    font-size: 20.07px;
+  }
+}
+body,
+ul,
+li,
+h3,
+h4,
+p,
+div {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #efefef;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+.layout {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.nav {
+  font-size: 0.625rem;
+  display: flex;
+  background-color: #F7F7F7;
+}
+.nav .address {
+  color: #EFC4DC;
+  position: relative;
+}
+.nav .address::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 0.5rem 0.5rem 0;
+  border-style: solid;
+  border-color: #EFC4DC transparent transparent;
+  /*黄 透明 透明 */
+  position: absolute;
+  top: 0.09375rem;
+  right: -1.25rem;
+}
+.nav p {
+  font-size: 0.78125rem;
+  display: block;
+  text-align: center;
+  flex: 1;
+}
+.nav .person {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  background: url(../images/icon/my.png) no-repeat center center;
+  background-size: cover;
+}
+.swiper-container {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.chanpin {
+  margin: 0;
+  padding: 0;
+}
+.chanpin div {
+  margin: 0;
+  padding: 0;
+}
+.chanpin a {
+  margin: 0.3125rem;
+  display: block;
+  padding: 0;
+}
+.chanpin a img {
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+.jipiao {
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+.jipiao div {
+  border: 0.015625rem solid #ccc;
+}
+.jipiao a {
+  display: block;
+  padding: 0;
+}
+.jipiao a img {
+  display: block;
+  width: 100%;
+}
+.productBox {
+  margin-bottom: 1.25rem;
+}
+.productBox .pContent {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.pContent {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.w50 {
+  width: 50%;
+  display: block;
+}
+.w50 > img {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+.f_left {
+  float: left;
+}
+.b_l {
+  border-left: 0.03125rem solid #ccc;
+}
+.b_bt {
+  border-bottom: 0.03125rem solid #ccc;
+}
+.b_r {
+  border-right: 0.03125rem solid #ccc;
+}
+.hot {
+  padding-bottom: 0.625rem;
+}
+.hot h3 {
+  padding-bottom: 0.625rem;
+  border-bottom: 0.03125rem solid #ccc;
+}
+.hot img {
+  width: 100%;
+  display: block;
+  border-bottom: 0.03125rem solid #ccc;
+}
+.tab .nav-tabs > li {
+  margin-bottom: 0;
+  width: 50%;
+  text-align: center;
+}
+.tab .nav-tabs > li > a {
+  border: none;
+  background-color: transparent;
+}
+.tab .nav-tabs > li > a:hover {
+  color: #D3079E;
+  border-bottom: 0.09375rem solid #D3079E;
+}
+.tab .nav-tabs > li.active > a,
+.tab .nav-tabs > li.active a:hover,
+.tab .nav-tabs > li.active a:focus {
+  color: #D3079E;
+  border: none;
+  border-bottom: 0.09375rem solid #D3079E;
+}
+.tab img {
+  width: 100%;
+}
+.tab #p1 div {
+  padding-bottom: 0.625rem;
+  border-bottom: 0.03125rem solid #ccc;
+}
+.footer {
+  margin-top: 0.3125rem;
+  width: 100%;
+}
+.footer .more {
+  text-align: center;
+  background-color: #fff;
+}
+.footer .more a {
+  text-decoration: none;
+  line-height: 1.25rem;
+}
+.footer .more a span {
+  padding-left: 0.625rem;
+}
+.footer .register {
+  height: 0.9375rem;
+  background-color: #D3079E;
+  margin-top: 0.625rem;
+  margin-bottom: 0.15625rem;
+  color: #fff;
+  font-size: 0.4375rem;
+}
+.footer .register > div:first-of-type {
+  float: left;
+  line-height: 0.9375rem;
+  padding-left: 0.3125rem;
+}
+.footer .register > div:first-of-type span {
+  padding-left: 0.46875rem;
+}
+.footer .register > div:last-of-type {
+  float: right;
+  line-height: 0.9375rem;
+  padding-right: 0.3125rem;
+}

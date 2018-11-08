@@ -1,0 +1,235 @@
+@media screen and (device-width: 320px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (device-width: 360px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (device-width: 375px) {
+    html {
+        font-size: 18.75px;
+    }
+}
+
+@media screen and (device-width: 414px) {
+    html {
+        font-size: 20.07px;
+    }
+}
+
+@import 'base.less';
+.nav {
+    font-size: 20/32rem;
+    display: flex;
+    background-color: #F7F7F7;
+    .address {
+        color: #EFC4DC;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-width: 16/32rem 16/32rem 0;
+            border-style: solid;
+            border-color: #EFC4DC transparent transparent;
+            /*黄 透明 透明 */
+            position: absolute;
+            top: 3/32rem;
+            right: -40/32rem;
+        }
+    }
+    p {
+        font-size: 25/32rem;
+        display: block;
+        text-align: center;
+        flex: 1;
+    }
+    .person {
+        width: 50/32rem;
+        height: 50/32rem;
+        background: url(../images/icon/my.png) no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+}
+
+.chanpin {
+    margin: 0;
+    padding: 0;
+    div {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        margin: 10/32rem;
+        display: block;
+        padding: 0;
+        img {
+            display: block;
+            padding: 0;
+            width: 100%;
+        }
+    }
+}
+
+.jipiao {
+    margin: 0;
+    margin-bottom: 40/32rem;
+    div {
+        border: 0.5/32rem solid #ccc;
+    }
+    a {
+        display: block;
+        padding: 0;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+.productBox {
+    margin-bottom: 40/32rem;
+    .pContent {
+        width: 100%;
+        overflow: hidden;
+        background-color: #fff;
+    }
+}
+
+.pContent {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.w50 {
+    width: 50%;
+    display: block;
+}
+
+.w50>img {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.f_left {
+    float: left;
+}
+
+.b_l {
+    border-left: 1/32rem solid #ccc;
+}
+
+.b_bt {
+    border-bottom: 1/32rem solid #ccc;
+}
+
+.b_r {
+    border-right: 1/32rem solid #ccc;
+}
+
+.hot {
+    padding-bottom: 20/32rem;
+    h3 {
+        padding-bottom: 20/32rem;
+        border-bottom: 1/32rem solid #ccc;
+    }
+    img {
+        width: 100%;
+        display: block;
+        border-bottom: 1/32rem solid #ccc;
+    }
+}
+
+.tab {
+    .nav-tabs {
+        >li {
+            margin-bottom: 0;
+            width: 50%;
+            text-align: center;
+            >a {
+                border: none;
+                background-color: transparent;
+                &:hover {
+                    color: #D3079E;
+                    border-bottom: 3/32rem solid #D3079E;
+                }
+            }
+            &.active {
+                >a,
+                a:hover,
+                a:focus {
+                    color: #D3079E;
+                    border: none;
+                    border-bottom: 3/32rem solid #D3079E;
+                }
+            }
+        }
+    }
+    img {
+        width: 100%;
+    }
+    #p1 {
+        div {
+            padding-bottom: 20/32rem;
+            border-bottom: 1/32rem solid #ccc;
+        }
+    }
+}
+
+.footer {
+    margin-top: 10/32rem;
+    width: 100%;
+    .more {
+        text-align: center;
+        background-color: #fff;
+        a {
+            text-decoration: none;
+            line-height: 40/32rem;
+            span {
+                padding-left: 20/32rem;
+            }
+        }
+    }
+    .register {
+        height: 30/32rem;
+        background-color: #D3079E;
+        margin-top: 20/32rem;
+        margin-bottom: 5/32rem;
+        color: #fff;
+        font-size: 14/32rem;
+        >div:first-of-type {
+            float: left;
+            line-height: 30/32rem;
+            padding-left: 10/32rem;
+            span {
+                padding-left: 15/32rem;
+            }
+        }
+        >div:last-of-type {
+            float: right;
+            line-height: 30/32rem;
+            padding-right: 10/32rem;
+        }
+    }
+}
